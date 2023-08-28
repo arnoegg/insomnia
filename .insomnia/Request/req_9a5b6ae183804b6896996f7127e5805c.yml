@@ -1,0 +1,42 @@
+_id: req_9a5b6ae183804b6896996f7127e5805c
+type: Request
+parentId: wrk_c3133a54d5d74716a69d42b0adfb0ed4
+modified: 1693067808940
+created: 1693067788549
+url: "{{ _.base_url }}connectly-send"
+name: Connectly Send
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sender": {
+        "id": "+14151111234",
+        "channelType": "whatsapp"
+      },
+      "recipient": {
+        "id": "+6287788994572",
+        "channelType": "whatsapp"
+      },
+      "message": {
+        "text": "Hello, this is a text message!"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1692882284951
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

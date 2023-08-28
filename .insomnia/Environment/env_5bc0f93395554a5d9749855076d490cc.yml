@@ -1,0 +1,22 @@
+_id: env_5bc0f93395554a5d9749855076d490cc
+type: Environment
+parentId: env_94b00af892b34109a365c97df20f7bc6970aa406
+modified: 1692884350793
+created: 1692883114337
+name: Development
+data:
+  base_url: "{{ _.protocol }}://{{ _.domain }}{{ _.path }}"
+  protocol: http
+  domain: localhost:54321
+  path: /functions/v1/
+  bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+dataPropertyOrder:
+  "&":
+    - base_url
+    - protocol
+    - domain
+    - path
+    - bearer
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1692883114337

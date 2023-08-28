@@ -1,0 +1,51 @@
+_id: req_9e3999d0680b43049ec9e41fa53a9e2d
+type: Request
+parentId: wrk_c3133a54d5d74716a69d42b0adfb0ed4
+modified: 1693064513088
+created: 1692884388119
+url: "{{ _.base_url }}connectly-delivery"
+name: Connectly Delivery
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "topic": "delivery_status",
+      "timestamp": "1641513098",
+      "sender": {
+        "id": "+628161904140",
+        "channelType": "whatsapp",
+        "name": "connectlyai"
+      },
+      "recipient": {
+        "id": "+16315555500",
+        "channelType": "whatsapp",
+        "name": "Vasi from Connectly"
+      },
+      "statusUpdate": {
+        "id": "01FRRWW2ZAHD9GJ1SWY4VF2GBD",
+        "status": "delivered",
+        "error": null
+      },
+      "metadata": {
+        "campaign_name": "<YOUR_CAMPAIGN_NAME>"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1692882285001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

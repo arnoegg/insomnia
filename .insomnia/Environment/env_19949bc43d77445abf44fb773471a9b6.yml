@@ -1,0 +1,22 @@
+_id: env_19949bc43d77445abf44fb773471a9b6
+type: Environment
+parentId: env_94b00af892b34109a365c97df20f7bc6970aa406
+modified: 1692891498283
+created: 1692883013421
+name: Production
+data:
+  base_url: "{{ _.protocol }}://{{ _.domain }}{{ _.path }}"
+  protocol: https
+  domain: nfiznxffqbkjjipzzvef.supabase.co
+  path: /functions/v1/
+  bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5maXpueGZmcWJramppcHp6dmVmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4Nzk1MzE2NywiZXhwIjoyMDAzNTI5MTY3fQ.IDlEIVBErP5y5eTQb45zvUkUnXIYB5h2PtppZQJNBDw
+dataPropertyOrder:
+  "&":
+    - base_url
+    - protocol
+    - domain
+    - path
+    - bearer
+color: "#ffae00"
+isPrivate: false
+metaSortKey: 1692883013421
